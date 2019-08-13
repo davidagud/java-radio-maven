@@ -1,0 +1,4 @@
+com/mycompany/persistence/Database.class
+com/mycompany/app/App.class
+com/mycompany/userInput/GetInput.class
+com/mycompany/persistence/DatabaseUtils.class
