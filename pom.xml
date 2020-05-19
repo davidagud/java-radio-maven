@@ -82,6 +82,28 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+            <groupId>io.github.fvarrui</groupId>
+            <artifactId>javapackager</artifactId>
+            <version>0.9.7</version>
+            <executions>
+              <execution>
+                  <phase>package</phase>
+                  <goals>
+                      <goal>package</goal>
+                  </goals>
+                  <configuration>
+                      <!-- mandatory -->
+                      <mainClass>com.mycompany.app</mainClass>
+                      <!-- optional -->
+                      <bundleJre>true</bundleJre>
+                      <generateInstaller>true</generateInstaller>        
+                      <administratorRequired>true</administratorRequired>
+                      <platform>windows</platform>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
