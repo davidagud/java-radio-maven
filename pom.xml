@@ -87,7 +87,7 @@
                     <configuration>
                         <headerType>gui</headerType>
                         <jar>${project.build.directory}/${artifactId}-${version}-shaded.jar</jar>
-                        <outfile>${project.build.directory}/java-radio.exe</outfile>
+                        <outfile>${project.build.directory}/java-radio-${version}.exe</outfile>
                         <downloadUrl>http://java.com/download</downloadUrl>
                         <classPath>
                             <mainClass>com.mycompany.app.App</mainClass>
@@ -128,7 +128,7 @@
                     <configuration>
                         <artifacts>
                             <artifact>
-                                <file>${project.build.directory}/java-radio-${project.version}.exe</file>
+                                <file>${project.build.directory}/java-radio-${version}.exe</file>
                                 <type>exe</type>
                             </artifact>
                         </artifacts>
