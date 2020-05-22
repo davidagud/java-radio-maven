@@ -86,8 +86,8 @@
                         </goals>
                         <configuration>
                             <headerType>gui</headerType>
-                            <jar>${project.build.directory}/${artifactId}-${version}-shaded.jar</jar>
-                            <outfile>${project.build.directory}/java-radio-${version}.exe</outfile>
+                            <jar>${project.build.directory}/${project.artifactId}-${project.version}-shaded.jar</jar>
+                            <outfile>${project.build.directory}/java-radio-${project.version}.exe</outfile>
                             <downloadUrl>http://java.com/download</downloadUrl>
                             <classPath>
                                 <mainClass>com.mycompany.app.App</mainClass>
@@ -128,7 +128,7 @@
                     <configuration>
                     <artifacts>
                         <artifact>
-                            <file>C:\Users\runneradmin\.m2\repository\com\mycompany\app\java-radio\${project.version}\java-radio-${project.version}.exe</file>
+                            <file>D:\a\java-radio-maven\java-radio-maven\target\\java-radio-${project.version}.exe</file>
                             <type>exe</type>
                         </artifact>
                     </artifacts>
