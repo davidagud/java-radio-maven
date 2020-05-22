@@ -6,7 +6,7 @@
 
     <groupId>com.mycompany.app</groupId>
     <artifactId>java-radio</artifactId>
-    <version>1.11</version>
+    <version>1.12</version>
 
     <name>java-radio</name>
     <!-- FIXME change it to the project's website -->
@@ -128,7 +128,7 @@
                     <configuration>
                     <artifacts>
                         <artifact>
-                            <file>${project.build.directory}/java-radio-${version}.exe</file>
+                            <file>C:\Users\runneradmin\.m2\repository\com\mycompany\app\java-radio\${project.version}\java-radio-${project.version}.exe</file>
                             <type>exe</type>
                         </artifact>
                     </artifacts>
