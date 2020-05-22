@@ -12,13 +12,13 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <!-- <distributionManagement>
+  <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
       <url>https://maven.pkg.github.com/davidagud/java-radio-maven</url>
     </repository>
-  </distributionManagement> -->
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
