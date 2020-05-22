@@ -128,7 +128,7 @@
                     <configuration>
                         <artifacts>
                             <artifact>
-                                <file>${project.build.directory}/java-radio.exe</file>
+                                <file>${project.build.directory}/java-radio-${project.version}.exe</file>
                                 <type>exe</type>
                             </artifact>
                         </artifacts>
