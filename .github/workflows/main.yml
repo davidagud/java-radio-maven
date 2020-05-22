@@ -41,9 +41,9 @@
     #    env:
     #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      build-windows:
+    build-windows:
 
-     runs-on: windows-latest
+    runs-on: windows-latest
 
     name: Java Windows Build
     steps:
